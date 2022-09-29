@@ -4,7 +4,8 @@
     "version": "0.3.0",
     "main": "index.js",
     "scripts": {
-        "dev": "npx tailwindcss -i ./styles/input.css -o ./styles/dist.css --watch"
+        "dev": "npx tailwindcss -i ./docs/styles/input.css -o ./docs/styles/dist.css --watch",
+        "build": "tailwindcss -i ./docs/styles/input.css -o ./docs/styles/dist.css --minify"
     },
     "author": "Spacey4K",
     "license": "ISC",

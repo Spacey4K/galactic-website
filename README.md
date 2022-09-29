@@ -4,7 +4,8 @@
 Made with tailwind CSS
 
 ## Running
-`npm run dev`
+Dev: `npm run dev`  
+Build: `npm run build`
 
 <details>
   <summary>Actual dashboard coming soon™</summary>
