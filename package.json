@@ -1,0 +1,14 @@
+{
+    "name": "galactic-web",
+    "homepage": "https://galactic-bot.com",
+    "version": "0.3.0",
+    "main": "index.js",
+    "scripts": {
+        "dev": "npx tailwindcss -i ./styles/input.css -o ./styles/dist.css --watch"
+    },
+    "author": "Spacey4K",
+    "license": "ISC",
+    "devDependencies": {
+        "tailwindcss": "^3.1.8"
+    }
+}
